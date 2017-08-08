@@ -12,6 +12,7 @@ public class GildedRoseTest {
         GildedRose app = new GildedRose(items);
         app.updateQuality();
         //assertEquals("fixme", app.items[0].name);
+	int answer = 42;
 	assertEquals(true, true);
     }
 
