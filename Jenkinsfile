@@ -1,9 +1,7 @@
 node {
 
 	stage ('Preparation'){
-
-		git credentialsId: '7304890d-0418-47c0-b592-f3cc5d4c3c0f', url: 'https://github.com/Raras325/gildedrose.git'
-
+		checkout scm
 	}
 
 	stage ('Build'){
